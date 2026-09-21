@@ -10,7 +10,7 @@
 .hero{min-height:740px;max-width:none;grid-template-columns:1fr 1fr;background:var(--papel) var(--grao);color:var(--preto);--foco:var(--vinho);border-bottom:0}
 .hero__plano-grafico{position:absolute;z-index:-1;inset:0;background:var(--vermelho);clip-path:polygon(86% 0,100% 0,100% 100%,39% 100%)}
 .hero__plano-grafico::after{content:"";position:absolute;inset:0;background:var(--grao)}
-.tecido{position:absolute;inset:0;overflow:hidden;pointer-events:none;background:var(--vermelho) url(assets/video/tecido-poster.webp) center/cover no-repeat}
+.tecido{position:absolute;inset:0;overflow:hidden;pointer-events:none;background:var(--vermelho) url(../assets/video/tecido-poster.webp) center/cover no-repeat}
 .tecido video{display:block;width:100%;height:100%;object-fit:cover}
 .hero__plano-grafico .tecido{opacity:.52;mix-blend-mode:luminosity}
 .apoie__tecido{z-index:-1;opacity:.48;mix-blend-mode:luminosity}

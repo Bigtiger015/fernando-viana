@@ -1,8 +1,8 @@
 /* Fernando Viana. Cartaz político digital: tipografia, fotografia e vermelho. */
-@font-face{font-family:"League Spartan";src:url(assets/fontes/league-spartan-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
-@font-face{font-family:Barlow;src:url(assets/fontes/barlow-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:Barlow;src:url(assets/fontes/barlow-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
-@font-face{font-family:"Barlow Condensed";src:url(assets/fontes/barlow-condensed-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
+@font-face{font-family:"League Spartan";src:url(../assets/fontes/league-spartan-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
+@font-face{font-family:Barlow;src:url(../assets/fontes/barlow-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Barlow;src:url(../assets/fontes/barlow-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(../assets/fontes/barlow-condensed-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
 :root{
   --vinho:#960f16;--vermelho:#b42525;--amarelo:#f6aa0c;--creme:#f6e9ce;
   --tinta:#211a17;--papel:#fbf5e9;--linha:rgb(33 26 23 / .22);
