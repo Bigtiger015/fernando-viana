@@ -91,8 +91,8 @@ body{background-image:var(--grao)}
 .hero__sol{position:absolute;z-index:0;top:6%;left:50%;width:min(78%,560px);aspect-ratio:1;border-radius:50%;background:var(--carmim);translate:-46% 0}
 .hero__reticula{position:absolute;z-index:0;right:0;bottom:0;width:62%;height:58%;background-image:radial-gradient(var(--preto) 30%,transparent 32%);background-size:10px 10px;
   -webkit-mask-image:linear-gradient(315deg,#000 0,transparent 62%);mask-image:linear-gradient(315deg,#000 0,transparent 62%);opacity:.55}
-.hero__img{position:absolute;inset:0;z-index:1;mix-blend-mode:multiply}
-.hero__img img{width:100%;height:100%;object-fit:cover;object-position:50% 6%;filter:grayscale(1) contrast(1.5) brightness(1.22)}
+.hero__img{position:absolute;inset:0;z-index:1} /* foto recortada: o sol fica atrás, sem tingir o rosto */
+.hero__img img{width:100%;height:100%;object-fit:cover;object-position:50% 6%;}
 .hero__cunha{position:absolute;z-index:2;top:37%;left:40%;width:20.5%;height:72px;background:var(--preto);clip-path:polygon(0 0,100% 50%,0 100%);pointer-events:none}
 .hero__voto{position:relative;z-index:3;margin:0 -4% 34px 0;padding:14px 8% 8px 28px;display:flex;align-items:flex-end;gap:16px;align-self:flex-end;margin-left:auto;background:var(--preto);color:var(--papel);transform:rotate(var(--ang));transform-origin:100% 100%}
 .hero__voto-numero{font:800 clamp(104px,11vw,172px)/.8 var(--fonte-display);letter-spacing:-.03em}
@@ -115,11 +115,10 @@ body{background-image:var(--grao)}
 
 /* Conheça: retrato colado sobre quadrado vermelho girado. */
 .conheca{display:grid;grid-template-columns:5fr 6fr;gap:clamp(48px,8vw,128px);align-items:center;padding:var(--secao) var(--miolo);overflow:hidden}
-.conheca__foto{position:relative;max-width:440px;isolation:isolate;background:var(--papel)}
+.conheca__foto{position:relative;max-width:440px;isolation:isolate}
 .conheca__quadrado{position:absolute;z-index:-1;inset:9% -7% -5% 12%;background:var(--carmim);transform:rotate(calc(var(--ang) * -1))}
 .conheca__foto::after{content:"";position:absolute;left:-18px;bottom:12%;width:46%;height:14px;background:var(--preto);transform:rotate(var(--ang))}
-.conheca__foto picture{mix-blend-mode:multiply}
-.conheca__foto img{width:100%;aspect-ratio:1/1.12;object-fit:cover;object-position:50% 15%;filter:grayscale(1) contrast(1.45) brightness(1.2)}
+.conheca__foto img{width:100%;aspect-ratio:1/1.12;object-fit:cover;object-position:50% 15%}
 .conheca__foto figcaption{font-size:13px;margin-top:8px}
 .conheca__texto{max-width:57ch;min-width:0}
 .conheca__texto .rotulo{color:var(--vermelho)}
